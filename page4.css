@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.img-logo {
+  width: 80px;
+  margin-left: 1000px;
+}
+
+.div-img {
+  width: 100%;
+}
+
+body {
+  background-color: #FAF7F0;
+  opacity: 100;
+}
+hr {
+  width: 1000px;
+  position: relative;
+  left: 150px;
+}
+.p-div {
+  width: 750px;
+  position: relative;
+  top: 5%;
+  left: -75%;
+  width: 600px;
+}
+.title-blog {
+  position: relative;
+  left: 150px;
+}
+.sub-blog {
+  position: relative;
+  left: 150px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #795757;
+}
+
+h1 {
+  color: #B17457;
+}
+h4 {
+  color: #4A4947;
+}
+
+.logo-bene {
+  position: relative;
+  top: -20px;
+  left: -80%;
+  width: 300px;
+}
+.logo {
+  position: relative;
+  top: -25px;
+}
+.btn {
+  background-color: #536493;
+  border-radius: 20px;
+  color: #B7B7B7;
+  width: 150px;
+  position: relative;
+  top: 6%;
+  left: -75%;
+}
+.btn:hover {
+  background-color: #536493;
+}
+
+.div-info {
+  position: relative;
+  top: 500px;
+}
+.info-div {
+  margin-top: -750px;
+  position: relative;
+  right: -50%;
+  width: 670px;
+}
+
+.info-img {
+  width: 500px;
+  border-radius: 20px;
+  -webkit-box-shadow: -10px 12px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 12px 15px 0px rgba(0,0,0,0.75);
+box-shadow: -10px 12px 15px 0px rgba(0,0,0,0.75);
+  position: relative;
+  top: -400px;
+  left: 100px;
+}
+
+.logo-target {
+  width: 50px;
+  margin-right: 20px;
+}
+.title-target-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title-target-info {
+  margin-top: 10px;
+  color: #A0937D;
+}
+.targets-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.targets-info-div {
+  margin-left: 100px;
+}
+.subtitle-target-info {
+  width: 80%;
+  text-align: justify;
+}
+
+.pie-div {
+  background-color: white;
+  height: 133px;
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-pie {
+  color: black;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.grid-pie {
+  
+}
+.logo-red {
+  width: 50px;
+  margin-right: 40px;
+}
+
+.div-main {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 80px;
+}
+.img-main {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,53,1) 35%, rgba(0,212,255,1) 100%);;
+}
+.div-info-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -380px;
+}
+.h3-info-main {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+}
+.p-info-main {
+  width: 600px;
+  color: #FFF1DB;
+  font-weight: 500;
+  font-size: 13px;
+  position: relative;
+  top: 15px;
+  left: 50px;
+}
+.input {
+  width: 650px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  padding: 0 0 0 90px;
+}
+.lupa-icono {
+  width: 40px;
+  position: relative;
+  top: -10px;
+  left: -285px;
+}
+.div-grid-sub {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+.div-card-sub {
+  width: 300px;
+  position: relative;
+  left: 100px;
+  background-color: white;
+  height: 250px;
+  border-radius: 10px 10px 10px 10px;
+}
+.img-card-sub {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.h5-img-card-sub {
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.btn-card-sub {
+  border: none;
+  border-radius: 20px;
+  height: 20px;
+  width: 100px;
+  position: relative;
+  top: 10px;
+  left:90px;
+  font-size: 12px;
+  background-color: #9BB0C1;
+}
+
+.grid-div-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: relative;
+  left: -80px;
+  overflow-y: none;
+  overflow-x: none;
+  top: -430px;
+  width: 70%;
+}
+.card-main-btn {
+  margin-left: 20px;
+}
+.btn-card {
+  background-color: black;
+  color: white;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  opacity: 0.7;
+  position: relative;
+  left: 140px;
+  transition: transform 0.5s ease;
+}
+.btn-card:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  -webkit-box-shadow: 2px 5px 34px 0px rgba(0,4,5,0.83);
+  -moz-box-shadow: 2px 5px 34px 0px rgba(0,4,5,0.83);
+  box-shadow: 2px 5px 34px 0px rgba(0,4,5,0.83);
+}
